@@ -12,6 +12,7 @@ class GitHubRepos {
    * @param {string} options.user - GitHub username (User Agent)
    * @param {string} options.token - GitHub API access token
    * @param {string} [options.sort="updated"] - How to sort repositories
+   *  one of (interactions, reactions, author-date, committer-date, updated)
    * @param {string} [options.order="desc"] - How to order repositories
    * @param {integer} [options.interval=3600000] - Update interval (default 1h)
    */
@@ -87,6 +88,7 @@ class GitHubRepos {
  * @param {string} options.user - GitHub username (User Agent)
  * @param {string} options.token - GitHub API access token
  * @param {string} [options.sort="updated"] - How to sort repositories
+ *  one of (interactions, reactions, author-date, committer-date, updated)
  * @param {string} [options.order="desc"] - How to order repositories
  * @param {integer} [options.interval=3600000] - Update interval (default 1h)
  */
