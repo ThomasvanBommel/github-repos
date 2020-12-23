@@ -4,7 +4,7 @@ Express middleware to grab repository information from GitHubs REST API.
 
 Uses GitHub API to pull repositories sorted and orders in a specified way.
 
-## Params
+## JDoc
 ```js
 /**
  * Grab GitHub repositories
@@ -15,6 +15,8 @@ Uses GitHub API to pull repositories sorted and orders in a specified way.
  *  one of (interactions, reactions, author-date, committer-date, updated)
  * @param {string} [options.order="desc"] - How to order repositories
  * @param {integer} [options.interval=3600000] - Update interval (default 1h)
+ * @throws Missing options.user...
+ * @throws Missing options.token...
  */
 ```
 

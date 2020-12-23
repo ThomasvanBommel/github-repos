@@ -15,11 +15,13 @@ class GitHubRepos {
    *  one of (interactions, reactions, author-date, committer-date, updated)
    * @param {string} [options.order="desc"] - How to order repositories
    * @param {integer} [options.interval=3600000] - Update interval (default 1h)
+   * @throws Missing options.user...
+   * @throws Missing options.token...
    */
   constructor(options){
     // ensure proper options object
     if(!options.user) throw "Missing options.user...";
-    if(!options.token) throw "Midding options.token...";
+    if(!options.token) throw "Missing options.token...";
 
     // add sort + order if required
     if(!options.sort) options.sort = "updated";
@@ -91,6 +93,8 @@ class GitHubRepos {
  *  one of (interactions, reactions, author-date, committer-date, updated)
  * @param {string} [options.order="desc"] - How to order repositories
  * @param {integer} [options.interval=3600000] - Update interval (default 1h)
+ * @throws Missing options.user...
+ * @throws Missing options.token...
  */
 module.exports = options => {
   return new GitHubRepos(options).middleware;

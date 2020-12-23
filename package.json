@@ -1,6 +1,6 @@
 {
   "name": "@cekeh/github-repos",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Express middleware to grab repository information from GitHubs REST API",
   "main": "github-repos.js",
   "scripts": {
