@@ -1,0 +1,19 @@
+{
+  "name": "@cekeh/github-repos",
+  "version": "1.0.0",
+  "description": "Express middleware to grab repository information from GitHubs REST API",
+  "main": "github-repos.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ThomasvanBommel/github-repos.git"
+  },
+  "author": "Thomas vanBommel",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ThomasvanBommel/github-repos/issues"
+  },
+  "homepage": "https://github.com/ThomasvanBommel/github-repos#readme"
+}
