@@ -1,7 +1,7 @@
 {
   "name": "@cekeh/github-repos",
-  "version": "1.0.1",
-  "description": "Express middleware to grab repository information from GitHubs REST API",
+  "version": "1.1.0",
+  "description": "Express middleware to grab repository information from GitHub",
   "main": "github-repos.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
